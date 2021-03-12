@@ -40,3 +40,12 @@ The unit tests included, cover a variety of inputs, test data validation, error 
 The unit tests can be run with the command: `npm test`
 
 A test coverage check can be run with the command: `npm run coverage`
+
+\
+**Method**
+
+The groupArrayElements function has been placed within a separate JavaScript file in order to demonstrate clear separation of concerns.
+
+The function could easily be included in an application in this way, or added as a static utility function within a utilily JavaScript file.  
+
+In addition, in a real world application, unit tests would be included to cover the try/catch code with the app.js file. I did not feel it was required for the purpose of this code challenge as error handline within the groupArrayElements function is covered and the app.js file is simply a means to demonstrate its use. 
