@@ -16,7 +16,7 @@
 \
 **app.js**
 
-The go function within app.js is run when the application starts. It's purpose is to simply demonstrate how the groupArrayElements function can be used within an application. 
+The go function within app.js runs when the application starts. It's purpose is to simply demonstrate how the groupArrayElements function can be used within an application. 
 
 Updating the data Array and groupSize values will allow you to manually test the outputs of the function based on the a variety of different input values. The unit tests included also cover this. 
 
