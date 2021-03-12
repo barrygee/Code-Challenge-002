@@ -48,4 +48,4 @@ The groupArrayElements function has been placed within a separate JavaScript fil
 
 The function could easily be included in an application in this way, or added as a static utility function within a utilily JavaScript file.  
 
-In addition, in a real world application, unit tests would be included to cover the try/catch code with the app.js file. I did not feel it was required for the purpose of this code challenge as error handline within the groupArrayElements function is covered and the app.js file is simply a means to demonstrate its use. 
+In addition, in a real world application, unit tests would be included to cover the try/catch code with the app.js file. I did not feel it was required for the purpose of this code challenge as error handling within the groupArrayElements function is covered and the app.js file is simply a means to demonstrate its use. 
