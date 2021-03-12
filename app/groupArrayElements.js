@@ -1,7 +1,7 @@
 function groupArrayElements(data, groupSize) {
 
     // validate function inputs
-    if (!data) { throw new Error('An array is required'); } 
+    if (!data || !Array.isArray(data)) { throw new Error('An array is required'); } 
     else if (!groupSize || 
               groupSize < 0 || 
               Number.isInteger(groupSize) !== true) { throw new Error('An invalid groupSize value was provided'); }
